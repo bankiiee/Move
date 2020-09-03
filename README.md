@@ -1,12 +1,13 @@
 <h1 align="center">Welcome to Move 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="#" target="_blank">
+    <img alt="Status" src="https://img.shields.io/badge/Status-WIP-red.svg?cacheSeconds=2592000" />
+    <img alt="Version" src="https://img.shields.io/badge/Version-0.1.0-blue.svg?cacheSeconds=2592000" />
+    <a href="#" target="_blank">
     <img alt="License: bankiiee" src="https://img.shields.io/badge/License-bankiiee-yellow.svg" />
   </a>
 </p>
 
-> Experimental project to make use of new SwiftUI and Widget on iOS 14
+> Experimental project about new SwiftUI and Widget on iOS 14
 
 ## Prerequisite
 - Xcode 12 beta (Latest version available)
