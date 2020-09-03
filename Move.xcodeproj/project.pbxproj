@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,55 @@
 		81E8E3592500A08B00DDBE63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E3582500A08B00DDBE63 /* ContentView.swift */; };
 		81E8E35B2500A08D00DDBE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E8E35A2500A08D00DDBE63 /* Assets.xcassets */; };
 		81E8E35E2500A08D00DDBE63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E8E35D2500A08D00DDBE63 /* Preview Assets.xcassets */; };
+		81E8E36C2500A0AC00DDBE63 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E8E36B2500A0AC00DDBE63 /* WidgetKit.framework */; };
+		81E8E36E2500A0AC00DDBE63 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E8E36D2500A0AC00DDBE63 /* SwiftUI.framework */; };
+		81E8E3712500A0AC00DDBE63 /* MoveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E3702500A0AC00DDBE63 /* MoveWidget.swift */; };
+		81E8E3742500A0AF00DDBE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E8E3732500A0AF00DDBE63 /* Assets.xcassets */; };
+		81E8E3762500A0AF00DDBE63 /* MoveWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E3722500A0AC00DDBE63 /* MoveWidget.intentdefinition */; };
+		81E8E3772500A0AF00DDBE63 /* MoveWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E3722500A0AC00DDBE63 /* MoveWidget.intentdefinition */; };
+		81E8E37A2500A0AF00DDBE63 /* MoveWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 81E8E3692500A0AC00DDBE63 /* MoveWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		81E8E3862500D77900DDBE63 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 81E8E3852500D77900DDBE63 /* Charts */; };
+		81E8E3882500D79B00DDBE63 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 81E8E3872500D79B00DDBE63 /* Charts */; };
+		81E8E38B2500D87500DDBE63 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 81E8E38A2500D87500DDBE63 /* SwiftUICharts */; };
+		81E8E38D2500D87E00DDBE63 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 81E8E38C2500D87E00DDBE63 /* SwiftUICharts */; };
+		81E8E38F2500DAB800DDBE63 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E38E2500DAB800DDBE63 /* Colors.swift */; };
+		81E8E3912500DBAD00DDBE63 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E3902500DBAD00DDBE63 /* UIColor+Hex.swift */; };
+		81E8E39E2500EC1E00DDBE63 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E8E39D2500EC1E00DDBE63 /* R.generated.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81E8E3782500A0AF00DDBE63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E8E34B2500A08B00DDBE63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E8E3682500A0AC00DDBE63;
+			remoteInfo = MoveWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81E8E37E2500A0AF00DDBE63 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				81E8E37A2500A0AF00DDBE63 /* MoveWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E8E3972500DD9E00DDBE63 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		81E8E3532500A08B00DDBE63 /* Move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Move.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +68,16 @@
 		81E8E35A2500A08D00DDBE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E8E35D2500A08D00DDBE63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81E8E35F2500A08D00DDBE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E8E3692500A0AC00DDBE63 /* MoveWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MoveWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E8E36B2500A0AC00DDBE63 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		81E8E36D2500A0AC00DDBE63 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		81E8E3702500A0AC00DDBE63 /* MoveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveWidget.swift; sourceTree = "<group>"; };
+		81E8E3722500A0AC00DDBE63 /* MoveWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MoveWidget.intentdefinition; sourceTree = "<group>"; };
+		81E8E3732500A0AF00DDBE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81E8E3752500A0AF00DDBE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E8E38E2500DAB800DDBE63 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		81E8E3902500DBAD00DDBE63 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		81E8E39D2500EC1E00DDBE63 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +85,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E8E3862500D77900DDBE63 /* Charts in Frameworks */,
+				81E8E38B2500D87500DDBE63 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E8E3662500A0AC00DDBE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E8E36E2500A0AC00DDBE63 /* SwiftUI.framework in Frameworks */,
+				81E8E38D2500D87E00DDBE63 /* SwiftUICharts in Frameworks */,
+				81E8E3882500D79B00DDBE63 /* Charts in Frameworks */,
+				81E8E36C2500A0AC00DDBE63 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +107,10 @@
 		81E8E34A2500A08B00DDBE63 = {
 			isa = PBXGroup;
 			children = (
+				81E8E39C2500EC1E00DDBE63 /* Constant */,
 				81E8E3552500A08B00DDBE63 /* Move */,
+				81E8E36F2500A0AC00DDBE63 /* MoveWidget */,
+				81E8E36A2500A0AC00DDBE63 /* Frameworks */,
 				81E8E3542500A08B00DDBE63 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				81E8E3532500A08B00DDBE63 /* Move.app */,
+				81E8E3692500A0AC00DDBE63 /* MoveWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,10 +128,12 @@
 			isa = PBXGroup;
 			children = (
 				81E8E3562500A08B00DDBE63 /* MoveApp.swift */,
+				81E8E38E2500DAB800DDBE63 /* Colors.swift */,
 				81E8E3582500A08B00DDBE63 /* ContentView.swift */,
 				81E8E35A2500A08D00DDBE63 /* Assets.xcassets */,
 				81E8E35F2500A08D00DDBE63 /* Info.plist */,
 				81E8E35C2500A08D00DDBE63 /* Preview Content */,
+				81E8E3922500DBC100DDBE63 /* Extensions */,
 			);
 			path = Move;
 			sourceTree = "<group>";
@@ -69,6 +146,42 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		81E8E36A2500A0AC00DDBE63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81E8E36B2500A0AC00DDBE63 /* WidgetKit.framework */,
+				81E8E36D2500A0AC00DDBE63 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81E8E36F2500A0AC00DDBE63 /* MoveWidget */ = {
+			isa = PBXGroup;
+			children = (
+				81E8E3702500A0AC00DDBE63 /* MoveWidget.swift */,
+				81E8E3722500A0AC00DDBE63 /* MoveWidget.intentdefinition */,
+				81E8E3732500A0AF00DDBE63 /* Assets.xcassets */,
+				81E8E3752500A0AF00DDBE63 /* Info.plist */,
+			);
+			path = MoveWidget;
+			sourceTree = "<group>";
+		};
+		81E8E3922500DBC100DDBE63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81E8E3902500DBAD00DDBE63 /* UIColor+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		81E8E39C2500EC1E00DDBE63 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				81E8E39D2500EC1E00DDBE63 /* R.generated.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,18 +189,47 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E8E3622500A08D00DDBE63 /* Build configuration list for PBXNativeTarget "Move" */;
 			buildPhases = (
+				81E8E3982500E81300DDBE63 /* R.Swift */,
 				81E8E34F2500A08B00DDBE63 /* Sources */,
 				81E8E3502500A08B00DDBE63 /* Frameworks */,
 				81E8E3512500A08B00DDBE63 /* Resources */,
+				81E8E37E2500A0AF00DDBE63 /* Embed App Extensions */,
+				81E8E3972500DD9E00DDBE63 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E8E3792500A0AF00DDBE63 /* PBXTargetDependency */,
+			);
+			name = Move;
+			packageProductDependencies = (
+				81E8E3852500D77900DDBE63 /* Charts */,
+				81E8E38A2500D87500DDBE63 /* SwiftUICharts */,
+			);
+			productName = Move;
+			productReference = 81E8E3532500A08B00DDBE63 /* Move.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81E8E3682500A0AC00DDBE63 /* MoveWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E8E37B2500A0AF00DDBE63 /* Build configuration list for PBXNativeTarget "MoveWidgetExtension" */;
+			buildPhases = (
+				81E8E3652500A0AC00DDBE63 /* Sources */,
+				81E8E3662500A0AC00DDBE63 /* Frameworks */,
+				81E8E3672500A0AC00DDBE63 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Move;
-			productName = Move;
-			productReference = 81E8E3532500A08B00DDBE63 /* Move.app */;
-			productType = "com.apple.product-type.application";
+			name = MoveWidgetExtension;
+			packageProductDependencies = (
+				81E8E3872500D79B00DDBE63 /* Charts */,
+				81E8E38C2500D87E00DDBE63 /* SwiftUICharts */,
+			);
+			productName = MoveWidgetExtension;
+			productReference = 81E8E3692500A0AC00DDBE63 /* MoveWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +243,9 @@
 					81E8E3522500A08B00DDBE63 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					81E8E3682500A0AC00DDBE63 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 81E8E34E2500A08B00DDBE63 /* Build configuration list for PBXProject "Move" */;
@@ -112,11 +257,16 @@
 				Base,
 			);
 			mainGroup = 81E8E34A2500A08B00DDBE63;
+			packageReferences = (
+				81E8E3842500D77900DDBE63 /* XCRemoteSwiftPackageReference "swiftui-charts" */,
+				81E8E3892500D87500DDBE63 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 81E8E3542500A08B00DDBE63 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				81E8E3522500A08B00DDBE63 /* Move */,
+				81E8E3682500A0AC00DDBE63 /* MoveWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,7 +281,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81E8E3672500A0AC00DDBE63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E8E3742500A0AF00DDBE63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81E8E3982500E81300DDBE63 /* R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.Swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/Constant/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif mint list | grep -q 'R.swift'; then\n  mint run R.swift rswift generate \"$SRCROOT/Constant/R.generated.swift\"\nelse\n  echo \"error: R.swift not installed; run 'mint bootstrap' to install\"\n  return -1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81E8E34F2500A08B00DDBE63 /* Sources */ = {
@@ -139,11 +320,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E8E3592500A08B00DDBE63 /* ContentView.swift in Sources */,
+				81E8E38F2500DAB800DDBE63 /* Colors.swift in Sources */,
 				81E8E3572500A08B00DDBE63 /* MoveApp.swift in Sources */,
+				81E8E3772500A0AF00DDBE63 /* MoveWidget.intentdefinition in Sources */,
+				81E8E3912500DBAD00DDBE63 /* UIColor+Hex.swift in Sources */,
+				81E8E39E2500EC1E00DDBE63 /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E8E3652500A0AC00DDBE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E8E3712500A0AC00DDBE63 /* MoveWidget.swift in Sources */,
+				81E8E3762500A0AF00DDBE63 /* MoveWidget.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81E8E3792500A0AF00DDBE63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E8E3682500A0AC00DDBE63 /* MoveWidgetExtension */;
+			targetProxy = 81E8E3782500A0AF00DDBE63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		81E8E3602500A08D00DDBE63 /* Debug */ = {
@@ -265,10 +467,12 @@
 		81E8E3632500A08D00DDBE63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Move/Preview Content\"";
+				DEVELOPMENT_TEAM = 9E8DRPWXY7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Move/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -286,10 +490,12 @@
 		81E8E3642500A08D00DDBE63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Move/Preview Content\"";
+				DEVELOPMENT_TEAM = 9E8DRPWXY7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Move/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,6 +505,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.bankiiee.lab.Move;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81E8E37C2500A0AF00DDBE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E8DRPWXY7;
+				INFOPLIST_FILE = MoveWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bankiiee.lab.Move.MoveWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81E8E37D2500A0AF00DDBE63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9E8DRPWXY7;
+				INFOPLIST_FILE = MoveWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.bankiiee.lab.Move.MoveWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,7 +573,58 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		81E8E37B2500A0AF00DDBE63 /* Build configuration list for PBXNativeTarget "MoveWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E8E37C2500A0AF00DDBE63 /* Debug */,
+				81E8E37D2500A0AF00DDBE63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81E8E3842500D77900DDBE63 /* XCRemoteSwiftPackageReference "swiftui-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+		81E8E3892500D87500DDBE63 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81E8E3852500D77900DDBE63 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E8E3842500D77900DDBE63 /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
+		81E8E3872500D79B00DDBE63 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E8E3842500D77900DDBE63 /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
+		81E8E38A2500D87500DDBE63 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E8E3892500D87500DDBE63 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		81E8E38C2500D87E00DDBE63 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E8E3892500D87500DDBE63 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81E8E34B2500A08B00DDBE63 /* Project object */;
 }
